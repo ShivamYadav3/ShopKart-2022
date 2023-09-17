@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    height: 778px;
+    padding: 0 5%;
+    background-color: #1a1a1a;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    font-family: Poppins;
+    color: #626262;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    height: 42px;
+  }
+  
+  .line {
+    border: 1px solid white;
+    height: 19px;
+  }
+  
+  .left_head1 {
+    display: flex;
+    gap: 15px;
+    color: #626262;
+  }
+  
+  .right_head1 {
+    display: flex;
+    gap: 32px;
+    font-size: 10px;
+    color: #626262;
+  }
+  
+  .right_sub_head1_2 {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .head_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    color: white;
+  }
+  
+  .head_2_left {
+    font-size: 40px;
+    font-family: Poppins;
+  }
+  
+  .head_2_right {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    font-family: Work Sans;
+  }
+  
+  .click {
+    display: none;
+  }
+  
+  .nav_container {
+    height: 655px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .border_bottom {
+    border: 1px solid white;
+  }
+  
+  .product {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .nav_list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .img {
+    background-image: url("./star/Star3.png");
+    background-repeat: no-repeat;
+    background-position: 112px -5px;
+    background-color: transparent;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .fresh {
+    position: absolute;
+    line-height: 102.6px;
+    font-size: 135px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: transparent;
+    z-index: 5;
+    font-family: Syne;
+    width: 689px;
+    height: 151px;
+    top: 280px;
+    left: 115px;
+  }
+  
+  .mid {
+    position: absolute;
+    font-size: 135px;
+    font-weight: 800;
+    font-family: Syne;
+    background-color: transparent;
+    z-index: 5;
+  
+    background: transparent;
+    top: 340px;
+    left: 321px;
+    height: 144px;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+  }
+  
+  .look {
+    position: absolute;
+    font-size: 128px;
+    background-color: transparent;
+    z-index: 5;
+  
+    width: 527px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: Syne;
+    top: 465px;
+    left: 187px;
+    height: 103px;
+  }
+  
+  .bgc {
+    position: absolute;
+    background-color: #f07e15;
+    width: 994px;
+    height: 354px;
+    top: 344px;
+    left: 355px;
+  }
+  
+  .jacket {
+    color: #161615;
+    position: relative;
+    top: -155px;
+    left: 1096px;
+    display: inline;
+    z-index: 8;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #f07e15;
+    line-height: 16.42px;
+    font-family: Work Sans;
+  }
+  
+  .front_line {
+    position: relative;
+    top: -215px;
+    left: 0px;
+    z-index: 8;
+    left: -116px;
+    background-color: transparent;
+  }
+  
+  .star-1 {
+    background-color: transparent;
+  }
+  
+  .more {
+    font-family: Work Sans;
+    position: relative;
+    top: -225px;
+    left: 25px;
+    font-weight: 400;
+    line-height: 21.11px;
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid white;
+    display: inline;
+  }
+  
+  .show {
+    display: none;
+  }
+  
+  .last_footer {
+    background-color: #161615;
+    color: #ffffff;
+    position: relative;
+    top: -20px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .App {
+    height: 1418px;
+    background-color: #1A1A1A;
+  }
+  
+  @media screen and (max-width:470px) {
+    .App {
+      height: 1392px;
+    }
+  
+    .container {
+      width: 470px;
+      height: 725px;
+      display: flex;
+      flex-direction: column;
+      gap: 19px;
+    }
+  
+    .header {
+      width: 441px;
+      
+      padding-right: 10px;
+      
+      gap: 12px;
+      font-size: 10px;
+    }
+  
+    .head_2_left {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .left_head1 {
+      display: flex;
+      gap: 8px;
+    }
+  
+    .follow {
+      display: none;
+    }
+  
+    .right_sub_head1_2 {
+      display: flex;
+      gap: 11px;
+    }
+  
+    .right_head1 {
+      display: flex;
+      gap: 17px;
+    }
+  
+    .nav_list {
+      display: none;
+    }
+  
+    .bgc {
+      left: 0;
+      width: 453px;
+      height: 302px;
+    }
+  
+    .head_2 {
+      display: flex;
+      justify-content: space-between;
+      width: 430px;
+      align-items: center;
+    }
+  
+    .head_2_right {
+      display: none;
+    }
+  
+    .click {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+  
+    .cut {
+      border: 1.5px solid white;
+      width: 20px;
+    }
+  
+    .hide {
+      display: flex;
+      width: 453px;
+      flex-direction: column;
+      color: white;
+      gap: 45px;
+  
+      align-items: center;
+      position: absolute;
+      top: 120px;
+      left: 0px;
+  
+      height: 640px;
+      background-color: black;
+      z-index: 12;
+    }
+  
+    .show {
+      display: block;
+    }
+  
+    .hide2 {
+      display: none;
+    }
+  
+    .cut1 {
+      rotate: 45deg;
+      position: relative;
+      width: 20px;
+      top: 6px;
+      border: 2px solid white;
+    }
+  
+    .cut2 {
+      rotate: -45deg;
+      border: 2px solid white;
+      width: 20px;
+  
+    }
+  
+    .img {
+      height: 603px;
+      background-position: 208px -3px;
+  
+    }
+  
+    .more {
+      z-index: 11;
+      top: -165px;
+    }
+  
+    .jacket {
+      display: none;
+    }
+  
+    .fresh {
+      font-size: 55px;
+      left: 15px;
+      top: 420px;
+      line-height: 70px;
+      width: 200px;
+  
+    }
+  
+    .look {
+      font-size: 55px;
+      left: 41px;
+      top: 534px;
+      line-height: 70px;
+      width: 200px;
+    }
+  
+    .mid {
+      font-size: 55px;
+      left: 98px;
+      top: 478px;
+      line-height: 70px;
+  
+    }
+  
+  }

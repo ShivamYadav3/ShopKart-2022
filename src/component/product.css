@@ -1,0 +1,188 @@
+.product-container {
+    padding: 0 5%;
+  }
+  
+  .arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .products-main {
+    width: 43.0625rem;
+    height: 9.4375rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    position: relative;
+  }
+  .product-head {
+    color: #161615;
+    font-family: Syne;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125.6%; 
+  }
+  .star {
+    position: absolute;
+    left: -0.7rem;
+    bottom: -1rem;
+  }
+  .arrow-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+    padding: 4% 0;
+  }
+  .category {
+    text-transform: capitalize;
+    flex: 1;
+  }
+  .elem {
+    padding: 0.5rem 0;
+    color: #161615;
+    font-family: Syne;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .items {
+    flex: 1;
+    width: 75%;
+  }
+  .item-main {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .item-main::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .cards {
+    width: 19.375rem;
+    padding: 0 1rem;
+  }
+
+  .product-image {
+    width: 19.375rem;
+    height: 20.125rem;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .product-main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .title {
+    color: #161615;
+    font-family: Syne;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 16.125rem;
+    height: 1.875rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .description {
+    color: rgba(22, 22, 21, 0.5);
+    font-family: Work Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 18.9375rem;
+    height: 3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+    overflow: hidden;
+  }
+  .price {
+    color: #161615;
+    font-family: Syne;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 16.125rem;
+    height: 1.875rem;
+  }
+  .mobile {
+    display: none;
+  }
+  .normal{
+    background-color: white;
+    color: black;
+  }
+  
+  @media screen and (max-width: 470px) {
+    .arrows {
+      display: block;
+    }
+    .products-main {
+      width: auto;
+      height: auto;
+    }
+  
+    .product-head {
+      width: 17.938rem;
+      height: 3.125rem;
+      color: var(--Grey-scale-1000, #000);
+      font-family: Syne;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125.6%; /* 3.14rem */
+    }
+    .arrow-main {
+      display: none;
+    }
+    .category {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .categories {
+      display: block;
+    }
+    .elem {
+      color: var(--Grey-scale-1000, #000);
+      font-family: Work Sans;
+      font-size: 0.775rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .items {
+      width: auto;
+      height: auto;
+    }
+    .cards {
+      width: auto;
+    }
+    .mobile {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.3rem;
+    }
+  }
